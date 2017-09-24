@@ -6,11 +6,7 @@ ETAT=WORKING
 
 Gitlab is a git server similar to github.
 
-
-
-
-Gitlab work only with a root domain
-
+Gitlab can only be installed on the root of a domain : the only available path to install this gitlab app on Yunohost is `/`.
 
 **Upgrade this package:**  
 `sudo yunohost app upgrade --verbose gitlab -u https://github.com/YunoHost-Apps/gitlab_ynh`
